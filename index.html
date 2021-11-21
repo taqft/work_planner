@@ -17,44 +17,115 @@
     <header class="jumbotron">
         <h1 class="display-3">Work Planner</h1>
         <p class="lead">A simple calendar app for scheduling your work day</p>
-        <p id="currentDay" class="lead"></p>
+        <br />
+        <p id="currentDate"></p>
     </header>
-    <div class="container-md">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-sm-4 bg-light my-1 p-3 border">
-                    Box
-                </div>
-                <div class="col-sm-4 bg-light my-1 p-3 border">
-                    Box
-                </div>
-                <div class="col-sm-4 bg-light my-1 p-3 border">
-                    Box
-                </div>
-                <div class="col-sm-4 bg-light my-1 p-3 border">
-                    Box
-                </div>
-                <div class="col-sm-4 bg-light my-1 p-3 border">
-                    Box
-                </div>
-                <div class="col-sm-4 bg-light my-1 p-3 border">
-                    Box
-                </div>
-                <div class="col-sm-4 bg-light my-1 p-3 border">
-                    Box
-                </div>
-                <div class="col-sm-4 bg-light my-1 p-3 border">
-                    Box
-                </div>
-                <div class="col-sm-4 bg-light my-1 p-3 border">
-                    Box
+    <div class="container">
+        <div class="row mx-auto border-0">
+            <div class="col-4">
+                <div class="card text-black mb-3" data-id="0" data-hour="9" style="max-width: 18rem;">
+                    <div class="card-header">9am</div>
+                    <div class="card-body">
+                        <label>Note:</label>
+                        <textarea class="col-10 mx-auto notebox" rows="5"></textarea>
+                        <div class="lockDiv"><img class="lockBtn" src="assets/images/lock.png"
+                                style="max-width: 20px;" /></div>
+                    </div>
                 </div>
             </div>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-            <script src="script.js"></script>
+            <div class="col-4">
+                <div class="card text-black mb-3" data-id="1" data-hour="10" style="max-width: 18rem;">
+                    <div class="card-header">10am</div>
+                    <div class="card-body">
+                        <label>Note:</label>
+                        <textarea class="col-10 mx-auto notebox" rows="5"></textarea>
+                        <div class="lockDiv"><img class="lockBtn" src="assets/images/lock.png"
+                                style="max-width: 20px;" /></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-black mb-3" data-id="2" data-hour="11" style="max-width: 18rem;">
+                    <div class="card-header">11am</div>
+                    <div class="card-body">
+                        <label>Note:</label>
+                        <textarea class="col-10 mx-auto" rows="5"></textarea>
+                        <div class="lockDiv"><img class="lockBtn" src="assets/images/lock.png"
+                                style="max-width: 20px;" /></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-black mb-3" data-id="3" data-hour="12" style="max-width: 18rem;">
+                    <div class="card-header">12pm</div>
+                    <div class="card-body">
+                        <label>Note:</label>
+                        <textarea class="col-10 mx-auto" rows="5"></textarea>
+                        <div class="lockDiv"><img class="lockBtn" src="assets/images/lock.png"
+                                style="max-width: 20px;" /></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-black mb-3" data-id="4" data-hour="13" style="max-width: 18rem;">
+                    <div class="card-header">1pm</div>
+                    <div class="card-body">
+                        <label>Note:</label>
+                        <textarea class="col-10 mx-auto" rows="5"></textarea>
+                        <div class="lockDiv"><img class="lockBtn" src="assets/images/lock.png"
+                                style="max-width: 20px;" /></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-black mb-3" data-id="5" data-hour="14" style="max-width: 18rem;">
+                    <div class="card-header">2pm</div>
+                    <div class="card-body">
+                        <label>Note:</label>
+                        <textarea class="col-10 mx-auto" rows="5"></textarea>
+                        <div class="lockDiv"><img class="lockBtn" src="assets/images/lock.png"
+                                style="max-width: 20px;" /></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-black mb-3" data-id="6" data-hour="15" style="max-width: 18rem;">
+                    <div class="card-header">3pm</div>
+                    <div class="card-body">
+                        <label>Note:</label>
+                        <textarea class="col-10 mx-auto" rows="5"></textarea>
+                        <div class="lockDiv"><img class="lockBtn" src="assets/images/lock.png"
+                                style="max-width: 20px;" /></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-black mb-3" data-id="7" data-hour="16" style="max-width: 18rem;">
+                    <div class="card-header">4pm</div>
+                    <div class="card-body">
+                        <label>Note:</label>
+                        <textarea class="col-10 mx-auto" rows="5"></textarea>
+                        <div class="lockDiv"><img class="lockBtn" src="assets/images/lock.png"
+                                style="max-width: 20px;" /></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-black mb-3" data-id="8" data-hour="17" style="max-width: 18rem;">
+                    <div class="card-header">5pm</div>
+                    <div class="card-body">
+                        <label>Note:</label>
+                        <textarea class="col-10 mx-auto" rows="5"></textarea>
+                        <div class="lockDiv"><img class="lockBtn" src="assets/images/lock.png"
+                                style="max-width: 20px;" /></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

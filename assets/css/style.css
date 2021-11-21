@@ -2,23 +2,47 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     line-height: 1;
+    background-image: url('../images/tropical-beach.jpg');
+    background-size: 150%;
 }
 
 textarea {
-    background: transparent;
+    background-color: #e1e1e1;
     border: none;
     resize: none;
-    color: #000000;
-    border-left: 1px solid black;
+    color: #000005;
+    border: 2px solid #000115;
+    border-radius: 0.25rem;
     padding: 10px;
+    display: block;
+    overflow: auto;
+}
+
+.card { 
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    padding: 0;
+    margin: 0 auto;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+    border-color: black;
 }
 
 .jumbotron {
     text-align: center;
-    background-color: transparent;
+    background-color: rgba(255, 255, 250, 0.8);
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
+}
+
+.lockDiv {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .description {
@@ -31,7 +55,7 @@ textarea {
 }
 
 .row {
-    white-space: pre-wrap;
+    /* white-space: pre-wrap; */
     height: 80px;
     border-top: 1px solid white;
 }
@@ -68,4 +92,27 @@ textarea {
 .saveBtn i:hover {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
+}
+
+.notebox::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.notebox::-webkit-scrollbar-thumb {
+    background: #C7C7C7;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+}
+
+.notebox::-webkit-scrollbar-thumb:hover {
+    background: #7a7a7a;
+}
+
+.notebox::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 7px 10px 12px #f0f0f0;
+    border: none;
 }
