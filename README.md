@@ -29,7 +29,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/theresaqueryforthat/work_planner">
+  <a href="https://github.com/taqft/work_planner">
     <img src="assets/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -38,11 +38,11 @@
   <p align="center">
     An simple work planner to track notes through the working hours.
     <br />
-    <a href="https://theresaqueryforthat.github.io/work_planner/">View Demo</a>
+    <a href="https://taqft.github.io/work_planner/">View Demo</a>
     ·
-    <a href="https://github.com/theresaqueryforthat/work_planner/issues">Report Bug</a>
+    <a href="https://github.com/taqft/work_planner/issues">Report Bug</a>
     ·
-    <a href="https://github.com/theresaqueryforthat/work_planner/issues">Request Feature</a>
+    <a href="https://github.com/taqft/work_planner/issues">Request Feature</a>
   </p>
 </div>
 
@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://theresaqueryforthat.github.io/work_planner/)
+[![Product Name Screen Shot][product-screenshot]](https://taqft.github.io/work_planner/)
 
 View the commit history to see the changes made across time. Expect to see new versions and projects added as time goes on! (Tim's repo was used for tracking the main commits and changes: https://github.com/atmention/daily_planner)
 
@@ -68,16 +68,16 @@ View the commit history to see the changes made across time. Expect to see new v
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/theresaqueryforthat/work_planner.svg?style=for-the-badge
-[contributors-url]: https://github.com/theresaqueryforthat/work_planner/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/theresaqueryforthat/work_planner.svg?style=for-the-badge
-[forks-url]: https://github.com/theresaqueryforthat/work_planner/network/members
-[stars-shield]: https://img.shields.io/github/stars/theresaqueryforthat/work_planner.svg?style=for-the-badge
-[stars-url]: https://github.com/theresaqueryforthat/work_planner/stargazers
-[issues-shield]: https://img.shields.io/github/issues/theresaqueryforthat/work_planner.svg?style=for-the-badge
-[issues-url]: https://github.com/theresaqueryforthat/work_planner/issues
-[license-shield]: https://img.shields.io/github/license/theresaqueryforthat/work_planner.svg?style=for-the-badge
-[license-url]: https://github.com/theresaqueryforthat/work_planner/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/taqft/work_planner.svg?style=for-the-badge
+[contributors-url]: https://github.com/taqft/work_planner/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/taqft/work_planner.svg?style=for-the-badge
+[forks-url]: https://github.com/taqft/work_planner/network/members
+[stars-shield]: https://img.shields.io/github/stars/taqft/work_planner.svg?style=for-the-badge
+[stars-url]: https://github.com/taqft/work_planner/stargazers
+[issues-shield]: https://img.shields.io/github/issues/taqft/work_planner.svg?style=for-the-badge
+[issues-url]: https://github.com/taqft/work_planner/issues
+[license-shield]: https://img.shields.io/github/license/taqft/work_planner.svg?style=for-the-badge
+[license-url]: https://github.com/taqft/work_planner/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/bk09/
 [linkedin-url-tim]: https://www.linkedin.com/in/tim-carrier-9a2a9a22/
